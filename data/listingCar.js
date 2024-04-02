@@ -66,7 +66,7 @@ module.exports = [
   {
     id: 4,
     featured: true,
-    image: "/images/listing/tiago.png",
+    image: "/images/listing/tiago/tiago.png",
     photosCount: 12,
     videosCount: 3,
     title: "2018 Tata Tiago Revotron XT",
