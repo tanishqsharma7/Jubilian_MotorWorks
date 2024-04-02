@@ -1,0 +1,132 @@
+// swiper
+.slider-arrow-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 4;
+        border: none;
+        background: transparent;
+        border-radius: 50%;
+        height: 50px;
+        line-height: 42px;
+        text-align: center;
+        width: 50px;
+        font-size: 20px;
+        color: #fff;
+
+        &.swiper-button-disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+    }
+    .prev {
+        left: -70px;
+        @media (max-width: 1600px) {
+            left: -50px;
+        }
+        @media (max-width: 1024px) {
+            left: -30px;
+        }
+    }
+    .next {
+        left: auto;
+        right: -70px;
+        @media (max-width: 1600px) {
+            right: -50px;
+        }
+        @media (max-width: 1024px) {
+            right: -30px;
+        }
+    }
+    .swiper-button-disabled {
+        color: #aaa;
+    }
+}
+
+.arrow-70-plus {
+    .slider-arrow-center {
+        .prev {
+            left: 70px;
+
+            @media (max-width: 575px) {
+                left: 0;
+            }
+        }
+        .next {
+            left: auto;
+            right: 70px;
+
+            @media (max-width: 575px) {
+                right: 0;
+            }
+        }
+    }
+}
+.arrow-35-percent {
+    .slider-arrow-center {
+        .prev {
+            left: 35%;
+
+            @media (max-width: 575px) {
+                left: 0;
+            }
+        }
+        .next {
+            left: auto;
+            right: 35%;
+
+            @media (max-width: 575px) {
+                right: 0;
+            }
+        }
+    }
+}
+
+.home2_style,
+.light-arrow_btn,
+.white-arrow_btn {
+    .slider-arrow-center {
+        button {
+            background: rgba(10, 35, 87, 0.1);
+            color: #1a3760;
+            font-size: 14px;
+            line-height: 46px;
+        }
+    }
+}
+.white-arrow_btn {
+    .slider-arrow-center {
+        button {
+            background: #fff;
+        }
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background: #1947e2 !important;
+}
+
+// hero 4
+.home1_advance_search_wrapper.home4_style .select-boxes {
+    width: 190px;
+    @media (max-width: 1024px) {
+        width: 165px;
+    }
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.home1_advance_search_wrapper .select-boxes {
+    @media (max-width: 1024px) {
+        width: 180px;
+    }
+}
+.btn-close {
+    opacity: 0.8;
+}
