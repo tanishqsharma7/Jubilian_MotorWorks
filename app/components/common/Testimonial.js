@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: "Sunny",
     title: "Tech Lead",
-    text: "Jubilian MotorWorks offers a seamless online experience for buying used cars. With their extensive inventory and user-friendly interface, finding your dream car has never been easier!",
+    text: "Jubilian MotorWorks offers a seamless online experience for buying used cars. With their extensive inventory and user-friendly staff, finding your dream car has never been easier!",
   },
   {
     id: 2,
