@@ -15,13 +15,13 @@ const testimonials = [
     id: 2,
     name: "Riya Shankar",
     title: "Sales Head",
-    text: "Jubilian MotorWorks simplifies the used car buying process with their user-friendly website and top-notch inventory. A trustworthy destination for finding your next ride!",
+    text: "Jubilian MotorWorks simplifies the used car buying process with their user-friendly staff and top-notch inventory. A trustworthy destination for finding your next ride!",
   },
   {
     id: 3,
     name: "Naveen Gujjar",
     title: "React Developer",
-    text: "At Jubilian MotorWorks, finding quality used cars is a breeze. With their intuitive website and diverse selection, it's the go-to destination for hassle-free car shopping.",
+    text: "At Jubilian MotorWorks, finding quality used cars is a breeze. With their intuitive deals and diverse selection, it's the go-to destination for hassle-free car shopping.",
   },
 ];
 
