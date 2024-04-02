@@ -46,15 +46,15 @@ const MobileMenu = () => {
   const contactInfo = [
     {
       icon: "flaticon-map",
-      text: "47 Bakery Street, London, UK",
+      text: "JMD Empire Square, MG Road, Gurgaon - 122001",
     },
     {
       icon: "flaticon-phone-call",
-      text: "1-800-458-56987",
+      text: "+91-987654321",
     },
     {
       icon: "flaticon-clock",
-      text: "Mon - Fri 8:00 - 18:00",
+      text: "Mon - Fri 8:00 - 10:00",
     },
   ];
 
