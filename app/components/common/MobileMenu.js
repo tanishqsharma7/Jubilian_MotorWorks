@@ -107,7 +107,7 @@ const MobileMenu = () => {
                 width={140}
                 height={45}
                 priority
-                src="/images/header-logo.svg"
+                src="/images/header-logo.png"
                 alt="brand"
               />
             </Link>
